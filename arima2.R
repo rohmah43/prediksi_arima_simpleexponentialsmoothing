@@ -26,6 +26,7 @@ acf(intrdiff, lag.max = 25)
 pacf(intrdiff, lag.max = 25)
 adf.test(intrdiff)
 
+#Prediksi menggunakan function auto.arima()
 fitintrdiff <- auto.arima(dtintr)
 fitintrdiff
 confint(fitintrdiff)
@@ -34,6 +35,7 @@ forecastedvalues_ln
 plot(forecastedvalues_ln)
 summary(fitintrdiff)
 
+#Prediksi menggunakan function Arima dengan mencoba beberapa kemungkinan model optimal berdasarkan hasil plot ACF
 #coba1
 fit_diff <- Arima(dtintr, order=c(0,1,2))
 fit_diff
