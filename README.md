@@ -42,3 +42,11 @@ Untuk mendapatkan model ARIMA(p,d,q) yang optimal, dilakukan trial and error unt
 Dari ketiga percobaan tersebut, diketahui bahwa model ARIMA(3,1,1) merupakan model optimal karena memiliki nilai MAPE yang lebih kecil dari model lainnya, yaitu 20.98%. Berikut adalah plot data aktual dan data prediksi dari model optimal.
 
 ![image](https://user-images.githubusercontent.com/73114027/108045046-98aea900-7075-11eb-966f-d56f9d06ac65.png)
+
+## 2. Model Simple Exponential Smoothing (SES)
+
+![image](https://user-images.githubusercontent.com/73114027/108045829-7ec19600-7076-11eb-9dba-effcbeeab788.png)
+
+Berdasarkan hasil tersebut, diketahui bahwa MAPE dari model tersebut adalah 22.34%. Berikut adalah plot data aktual dan prediksinya.
+
+![image](https://user-images.githubusercontent.com/73114027/108046210-f1cb0c80-7076-11eb-8668-3aecb4448a52.png)
