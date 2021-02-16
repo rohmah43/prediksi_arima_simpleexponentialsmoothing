@@ -1,9 +1,6 @@
 install.packages("forecast", dependencies=TRUE)
-library(AnalyzeTS)
-library(MASS)
 library(tseries)
 library(forecast)
-library(lmtest) 
 
 dtinter <- read.csv("E:/Kuliah/PKL/databandara.csv",header = TRUE)
 dtinter
